@@ -2,5 +2,10 @@
     "name": "Vocabulary-Companion",
     "version": "0.0.1",
     "description": "Vocabulary.com Chrome Companion",
+    "permissions": [ "storage" ],
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    },
     "manifest_version": 2
 }
